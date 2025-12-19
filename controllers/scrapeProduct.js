@@ -140,11 +140,7 @@ const scrapeProduct = async (browser, url) => {
       )
       .filter(Boolean);
 
-    // const sizes = Array.from(
-    //   document.querySelectorAll(".size-buttons-size-button")
-    // ).map((btn) => ({
-    //   size: btn.querySelector(".size-buttons-unified-size")?.innerText.trim(),
-    // }));
+  
 
     const sizes = Array.from(
       document.querySelectorAll(".size-buttons-size-button")
